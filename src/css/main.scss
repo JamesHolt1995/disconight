@@ -1,0 +1,43 @@
+body {
+    font-size: 16px;
+    color: #245AB0;
+    padding: 0;
+    margin: 0;
+    background: #011033;
+}
+
+canvas {
+    position: fixed;
+    left: 30%;
+    top: -10%;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+h1,
+p {
+    span {
+        display: block;
+    }
+
+    font-family: elza,
+    sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 123px;
+    line-height: 0.9;
+    margin: 10px 10px 10px 15px;
+
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
