@@ -10,7 +10,17 @@ canvas {
     position: fixed;
     left: 30%;
     top: -10%;
+    //opacity: 0;
+}
 
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: #011033;
+    z-index: 10;
 }
 
 main {
@@ -18,6 +28,7 @@ main {
     flex-direction: column;
     justify-content: space-between;
     height: 100vh;
+    position: relative;
 }
 
 h1,
